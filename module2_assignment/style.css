@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+  }
+  
+  
+  body{
+    font-family: 'Lato', sans-serif;  
+  }
+  
+  .row{
+    width: 100%;
+  }
+  
+  h1{
+    color:blue;
+   text-align:center;
+    margin-bottom:10px;
+  }
+  .item{
+    position: relative;
+    
+    background-color:grey;
+    margin: 15px;
+    padding: 25px;
+    border: 3px solid black;
+    
+    
+   
+  }
+  .itemh{
+    
+      position: absolute;
+    top:0;
+    right: 0px;
+    background: green; 
+    padding: 6px 90px;
+    border-left: 2px solid #000;
+    border-bottom: 2px solid #000;
+  
+    float:right;
+  }
+  .container{
+   position: relative;
+   top:60px;
+   margin: 15px; 
+  }
+  .item p{
+    margin-top: 17px;
+    text-align: justify;
+    font-size:100%;
+  }
+  
+  #t1{
+    color:black;
+    background-color:pink;
+    text-align:center;
+    margin-bottom:20px;
+  }
+  #t2{
+    color:white;
+    background-color:brown;
+    text-align:center;
+    margin-bottom:20px;
+  }
+  #t3{
+    color:black;
+    background-color:yellow;
+    text-align:center;
+    margin-bottom:20px;
+  }
+  @media (min-width: 992px){
+    .col-l-1, .col-l-2, .col-l-3, .col-l-4, .col-l-5, .col-l-6, .col-l-7, .col-l-8, .col-l-9, .col-l-10, .col-l-11, .col-l-12 {
+      float: left;  
+    }
+    .col-l-1 {
+      width: 8.33%;
+    }
+    .col-l-2 {
+      width: 16.66%;
+    }
+    .col-l-3 {
+      width: 25%;
+    }
+    .col-l-4 {
+      width: 33.33%;
+    }
+    .col-l-5 {
+      width: 41.66%;
+    }
+    .col-l-6 {
+      width: 50%;
+    }
+    .col-l-7 {
+      width: 58.33%;
+    }
+    .col-l-8 {
+      width: 66.66%;
+    }
+    .col-l-9 {
+      width: 74.99%;
+    }
+    .col-l-10 {
+      width: 83.33%;
+    }
+    .col-l-11 {
+      width: 91.66%;
+    }
+    .col-l-12 {
+      width: 100%;
+    }
+  
+  }
+  
+  
+  
+  @media (min-width: 768px) and (max-width: 991px){
+    .col-l-4 {
+      width: 50%;
+      float: left;
+    }
+    .col-l-tab{
+     width: 100%;
+     float: left;
+   }
+  }
+  
+  
+ 
+  @media (max-width: 767px){
+    .col-l-4{
+      width: 100%;
+      float: left;
+    }
+  }
