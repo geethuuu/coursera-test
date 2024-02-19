@@ -1,22 +1,23 @@
 
+
 .container-fluid{
 	margin: 0;
 	padding: 0;
 }
 
 .navbar{
-	border-radius: 0px;
+	border-radius: 1px;
 	background-color: rgba(0,0,0,0.8);
 }
 
 .navbar-brand{
   font-size: 35px;
-  color: white;
+  color:green;
   padding-left: 25px;
 }
 
 .navbar-brand:hover{
-	color: white;
+	color: yellow;
 }
 
 .nav{
@@ -25,14 +26,14 @@
 }
 
 .navbar-nav{
-  font-size: 25px;
+  font-size: 26px;
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
 .navbar-toggle{
-	border: 2px solid white;
+	border: 2px solid yellow;
 	margin-right: 25px;
 }
 
@@ -67,7 +68,7 @@ li{
 
 .menu-item:hover{
 	background-color: rgba(0,0,0,0.9);
-	color: rgba(0,0,0,0.4);
+	color:cyan
 }
 
 
@@ -80,9 +81,9 @@ li{
 	margin: 20px;
 	width: auto;
 	height: auto;
-	color: black;
+	color: yellow;
 	background-color: rgba(0,0,0,0.2);
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font: "Comic Sans MS";
 	padding: 20px;
 }
 
